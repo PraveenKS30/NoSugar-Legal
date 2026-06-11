@@ -28,7 +28,7 @@
   <header><div class="wrap"><div class="mark">NS</div><strong>No Sugar</strong></div></header>
   <main class="wrap">
     <h1>Privacy Policy</h1>
-    <p class="meta">Effective date: May 9, 2026. Last updated: May 17, 2026.</p>
+    <p class="meta">Effective date: May 9, 2026. Last updated: June 11, 2026.</p>
 
     <div class="card"><strong>Short version:</strong> No Sugar is local-first. Your habit data starts on your device. If you choose account, sync, Pro purchase, analytics, or AI coaching features, the minimum data needed for those features is processed by the services described below. We do not sell your data, show ads, or use ad tracking identifiers.</div>
 
@@ -59,9 +59,9 @@
     <h2>5. No Sugar Pro purchases</h2>
     <p>No Sugar Pro purchases and restore status are handled through Apple App Store or Google Play billing and RevenueCat. We receive purchase entitlement information such as whether Pro is active, the product purchased, renewal status, and store transaction metadata needed to unlock paid digital features. We do not receive your full payment card details.</p>
 
-    <h2>6. AI weekly coaching</h2>
-    <p>No Sugar Pro may include an AI-generated weekly coaching nudge. To generate it, the app sends a limited weekly insight payload to our Supabase Edge Function, such as clean percentage, top trigger, risky time window, trend, and streak context. The function calls OpenAI to produce a short habit-support response.</p>
-    <p>The AI coach does not need your full journal text for the v0 weekly nudge. AI output may be imperfect and is for general wellness support only. It is not medical advice, diagnosis, or treatment.</p>
+    <h2>6. AI coaching features</h2>
+    <p>No Sugar Pro may include controlled AI-generated coaching features, such as a tomorrow prevention plan, weekly coaching nudge, post-slip reflection, or monthly pattern summary. To generate these, the app sends a limited structured habit-pattern payload to our Supabase Edge Function. This may include items such as clean percentage, recent slip category, top trigger, risky time window, trend, streak context, and saved or worked alternative counts. The function calls OpenAI to produce a short habit-support response.</p>
+    <p>The AI coach does not need your full journal text for these coaching nudges. AI output may be imperfect and is for general wellness support only. It is not medical advice, diagnosis, or treatment.</p>
 
     <h2>7. Crash reporting and analytics</h2>
     <p>Sentry may be used for crash reporting when configured in production builds. We configure it to avoid unnecessary personal identifiers where possible.</p>
@@ -70,7 +70,7 @@
     <h2>8. Third-party services</h2>
     <ul>
       <li>Supabase: database, authentication, sync, and Edge Functions.</li>
-      <li>OpenAI: AI-generated weekly coaching, only for Pro AI features.</li>
+      <li>OpenAI: AI-generated coaching, only for Pro AI features.</li>
       <li>RevenueCat: purchase entitlement management.</li>
       <li>Apple App Store / Google Play: billing and subscription management.</li>
       <li>Expo / EAS: builds and over-the-air updates.</li>
@@ -84,7 +84,7 @@
       <li>To schedule local reminders at the time you choose.</li>
       <li>To sync or restore your data when you use account features.</li>
       <li>To unlock, restore, and manage Pro features.</li>
-      <li>To generate Pro AI weekly coaching when available.</li>
+      <li>To generate Pro AI coaching when available.</li>
       <li>To diagnose crashes and improve reliability.</li>
       <li>To understand aggregate feature usage only if analytics is enabled.</li>
     </ul>
